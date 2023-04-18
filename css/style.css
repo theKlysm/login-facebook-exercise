@@ -14,3 +14,18 @@
 .clear{
     clear: both;
 }
+
+header{
+    background: #3665af;
+    padding: 8px 0;
+}
+
+.logo{
+    float: left;
+    color: white;
+}
+
+.logo h2{
+    font-size: 23px;
+    font-weight: normal;
+}
