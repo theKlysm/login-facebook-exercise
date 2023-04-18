@@ -32,6 +32,8 @@
                         <input type="submit" name="acao" value="Enviar"/>
                     </div><!-- Font element submit -->
                 </form><!-- form login -->
+                
+                <div class="clear"></div>
             </div><!-- Center -->
         </header>
     </body>
