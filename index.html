@@ -64,6 +64,28 @@
                         </div><!-- w100 -->
 
                         <div class="w100">
+                            <h2>Data de nascimento: </h2>
+                            <select name="nascimento-dia" class="nascimento">
+                                <?php
+                                    for($i = 1; $i <= 31; $i++){
+                                ?>
+                                <option value="<?php echo $i; ?>"><?php echo $i; ?></option>
+                                <?php } ?>
+                            </select>
+                            <select name="nascimento-mes" class="nascimento">
+                                <option value="0">Junho</option>
+                            </select>
+                            <select name="nascimento-ano" class="nascimento">
+                                <?php
+                                    for($i = 1930; $i <= 2023; $i++){
+                                ?>
+                                <option value="<?php echo $i; ?>"><?php echo $i; ?></option>
+                                <?php } ?>
+                            </select>
+                            <div class="clear"></div>
+                        </div><!-- w100 -->
+
+                        <div class="w100">
                             <input type="submit" name="acao" value="Cadastrar!">
                         </div><!-- w100 -->
 
