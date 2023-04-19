@@ -68,11 +68,47 @@ section.main{
 }
 
 .img-pessoas{
+    float: left;
+    width: 70%;
+}
+
+.img-pessoas img{
     max-width: 100%;
 }
 
 .abrir-conta{
     width: 30%;
+    float: right;
+}
+
+.abrir-conta h2{
+    color: black;
+    font-size: 26px;
+}
+
+.abrir-conta h3{
+    color: rgb(30, 30, 30);
+    font-size: 19px;
+    margin-top: 8px;
+    font-weight: normal;
+}
+
+form.criar-conta{
+    margin-top: 10px;
+}
+
+.w50{
+    width: 50%;
+    padding: 0 5px;
     float: left;
 }
 
+.w100{
+    width: 100%;
+    padding: 0 5px;
+    float: left;
+}
+
+form.criar-conta input{
+    width: 100%;
+}
